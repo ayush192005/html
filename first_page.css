@@ -78,8 +78,49 @@ button:hover {
 .mid_part h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: lighter;
-    font-size: xx-large;
+    font-size: 48px;
     padding: 0%;
     margin: au;
     margin-top: 150px;
+}
+
+.mid_part h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.mid_part {
+    position: relative;
+    top: 90px;
+    left: 220px;
+}
+.button2  {
+    width: 110px;
+    height: 40px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-color: black;
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.mid_part button:hover{
+    background-color: #FFBF23;
+    color: black;
+    transition: background-color 0.6s, color 0.6s;
+}
+
+.button2 {
+    position: relative;
+    top: 27px;
+    left : -10px;
+}
+.mid_part img {
+    position: relative;
+    top: -230px;
+    left :500px;
 }
